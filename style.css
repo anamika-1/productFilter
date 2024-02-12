@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFE5E5;
+}
+
+.main{
+    margin: 1.5rem;
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+
+.main h1{
+    margin: 0.5rem;
+    color: #0c0c0c;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    width: 600px;
+    border-radius: 20px;
+}
+
+.filter button{
+    padding: 1rem;
+    color: rgb(26, 17, 17);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    background-color: #f4e7e7;
+    box-shadow: 0px 0px 3px 2px #5b3e63;  
+}
+
+
+.filter button:hover{
+    font-size: 16px;
+    border: none;
+    box-shadow: 0px 0px 8px 2px #f0a6a6;
+}
+
+.products{
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85vw;
+    border-radius: 10px;
+}
+
+.card{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0px 0px 3px 2px #a190ac;
+    border-radius: 8px;
+}
+
+
+.card:hover{
+    height: 310px;
+    width: 260px;
+    box-shadow: 0px 0px 5px 2px #a783d1;
+}
+
+.card img{
+    margin-top: 1rem;
+    border-radius: 10px;
+    height: 180px;
+    width: 160px;
+}
+
+.card h4{
+    font-size: 15px;
+    color: #1a0a0a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
